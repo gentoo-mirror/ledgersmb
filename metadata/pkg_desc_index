@@ -1,0 +1,71 @@
+acct-group/ledgersmb 0.0.1: LedgerSMB Service Group
+acct-user/ledgersmb 0.0.1: LedgerSMB Service User
+app-office/ledgersmb 1.9.16 1.10.1: An Accounting Application for Small to Midsized Businesses
+dev-perl/App-LedgerSMB-Admin 0.08: Easily Manage LedgerSMB Installations
+dev-perl/Beam-Emitter 1.007: Role for event emitting classes
+dev-perl/Beam-Service 0.001: Role for services to access Beam::Wire features
+dev-perl/Beam-Wire 1.025: Lightweight Dependency Injection Container
+dev-perl/Class-Date 1.1.17: Class for easy date and time manipulation
+dev-perl/Class-Factory 1.06: Base class for dynamic factory classes
+dev-perl/Class-Fields 0.204: Inspect the fields of a class.
+dev-perl/DBD-Mock 1.59: Mock database driver for testing
+dev-perl/Data-DPath 0.58: DPath is not XPath!
+dev-perl/DateTime-Format-Duration-ISO8601 0.008: Parse and format ISO8601 duration
+dev-perl/Email-Stuffer 0.018: A more casual approach to creating and sending Email:: emails
+dev-perl/Excel-Writer-XLSX 1.09: Create a new file in the Excel 2007+ XLSX format.
+dev-perl/Feature-Compat-Try 0.05: C<Feature::Compat::Try> - make C<try/catch> syntax available
+dev-perl/File-Path-Tiny 1.0: recursive versions of mkdir() and rmdir() without as much overhead as File::Path
+dev-perl/File-Util 4.201720: Easy, versatile, portable file handling
+dev-perl/HTML-Escape 1.11: Extremely fast HTML escaping
+dev-perl/HTTP-AcceptLanguage 0.02: Accept-Language header parser and find available language
+dev-perl/HTTP-Parser-XS 0.17: a fast, primitive HTTP request parser
+dev-perl/Iterator 0.03: A general-purpose iterator class.
+dev-perl/Iterator-Util 0.02: Essential utilities for the Iterator class.
+dev-perl/JSONSchema-Validator 0.011: Validator for JSON Schema Draft4/Draft6/Draft7 and OpenAPI Specification 3.0
+dev-perl/Locale-CLDR 0.34.1: A Module to create locale objects with localisation data from the CLDR
+dev-perl/Locales 0.34: Methods for getting localized CLDR language/territory names
+dev-perl/Log-Any-Adapter-Log4perl 0.09: Log::Any adapter for Log::Log4perl
+dev-perl/Mock-MonkeyPatch 1.02: Monkey patching with test mocking in mind
+dev-perl/Module-Build-Pluggable 0.10: Module::Build meets plugins
+dev-perl/Module-Build-Pluggable-PPPort 0.04: Generate ppport.h
+dev-perl/Module-Want 0.6: Check @INC once for modules that you want but may not have
+dev-perl/MooX-ClassAttribute 0.011: declare class attributes Moose-style... but without Moose
+dev-perl/Number-Tolerant 1.709: test routines for testing numbers against tolerances
+dev-perl/OpenOffice-OODoc 2.125: The Perl Open OpenDocument Connector
+dev-perl/PGObject 2.3.2: A toolkit integrating intelligent PostgreSQL dbs into Perl objects
+dev-perl/PGObject-Composite 1.000002: Composite Type Mapper for PGObject
+dev-perl/PGObject-Simple 3.1.0: Minimalist stored procedure mapper based on LedgerSMB's DBObject
+dev-perl/PGObject-Simple-Role 2.1.1: Moo/Moose mappers for minimalist PGObject framework
+dev-perl/PGObject-Type-BigFloat 2.1.0: Math::BigFloat wrappers for PGObject classes
+dev-perl/PGObject-Type-ByteString 1.2.3: Wrapper for raw strings mapping to BYTEA columns
+dev-perl/PGObject-Type-Composite 1: Composite Type handler for PGObject
+dev-perl/PGObject-Type-DateTime 2.000002: DateTime Wrappers for PGObject
+dev-perl/PGObject-Type-JSON 2.000001: JSON wrappers for PGObject
+dev-perl/PGObject-Util-BulkLoad 0.06: Bulk load records into PostgreSQL
+dev-perl/PGObject-Util-Catalog-Types 0.03: Utilities for working with Composite types
+dev-perl/PGObject-Util-DBAdmin 1.6.1: PostgreSQL Database Management Facilities for PGObject
+dev-perl/PGObject-Util-DBChange 0.050.4: No description available
+dev-perl/PGObject-Util-DBMethod 1.01.000: Declarative stored procedure <-> object mappings for the PGObject Framework
+dev-perl/PGObject-Util-PseudoCSV 2: Tuple/Array parsing and serialization for PGObject
+dev-perl/Plack-Builder-Conditionals 0.05: Plack::Builder extension
+dev-perl/Plack-Middleware-ReverseProxy 0.16: Supports app to run as a reverse proxy backend
+dev-perl/Plack-Request-WithEncoding 0.14: Subclass of L<Plack::Request> which supports encoded requests.
+dev-perl/SPOPS 0.87: SPOPS -- Simple Perl Object Persistence with Security
+dev-perl/Selenium-Remote-Driver 1.20: Perl Client for Selenium Remote Driver
+dev-perl/Session-Storage-Secure 1.000: Encrypted, expiring, compressed, serialized session data with integrity
+dev-perl/Starman 0.4014: Plack::Handler::Starman - Plack adapter for Starman
+dev-perl/String-Compare-ConstantTime 0.321: Timing side-channel protected string compare
+dev-perl/String-Random 0.32: Perl module to generate random strings based on a pattern
+dev-perl/String-UnicodeUTF8 0.23: non-collation related unicode/utf-8 bytes string-type-agnostic utils
+dev-perl/String-Unquotemeta 0.1: undo what quotemeta() does, nothing more nothing less
+dev-perl/Test-API 0.010: Test a list of subroutines provided by a module
+dev-perl/Test-Carp 0.2: test your code for calls to Carp functions
+dev-perl/Test-LWP-UserAgent 0.036: A LWP::UserAgent suitable for simulating and testing network calls
+dev-perl/Test-Lib 0.003: Use libraries from a t/lib directory
+dev-perl/Unicode-Regex-Set 0.04: Subtraction and Intersection of Character Sets in Unicode Regular Expressions
+dev-perl/Version-Compare 0.14: Compare version strings Version::Compare - Comparing version strings
+dev-perl/Weasel 0.29: Perl's php/Mink-inspired abstracted web-driver framework
+dev-perl/Weasel-Driver-Selenium2 0.12: Weasel driver wrapping Selenium::Remote::Driver
+dev-perl/Weasel-Widgets-Dojo 0.07: No description available
+dev-perl/Workflow 1.61: Data blackboard for Workflows, Actions, Conditions and Validators
+dev-perl/X12 0.80: Perl module for parsing X12 Transaction files

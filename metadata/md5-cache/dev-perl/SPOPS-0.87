@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-perl/Class-Factory-1.06 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/Carp-Assert-0.210.0 >=dev-perl/Log-Dispatch-2.700.0 >=dev-perl/Class-Fields-0.204 >=dev-perl/Devel-StackTrace-2.40.0 >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Class-ISA-0.360.0 >=dev-perl/Class-Date-1.1.17 dev-lang/perl dev-lang/perl
+DESCRIPTION=SPOPS -- Simple Perl Object Persistence with Security
+EAPI=8
+HOMEPAGE=https://metacpan.org/release/SPOPS
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CW/CWINTERS/SPOPS-0.87.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	21a0cb6221498d0e7894bdf445b79887
+_md5_=b2b902003c3eae1b479da799a70a4340

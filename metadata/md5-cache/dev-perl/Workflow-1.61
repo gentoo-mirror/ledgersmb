@@ -1,0 +1,16 @@
+BDEPEND=dev-lang/perl test? ( virtual/perl-Test-Simple )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-perl/DateTime-Format-Strptime-1.790.0 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/XML-Simple-2.250.0 dev-perl/Readonly >=dev-perl/DBD-Mock-1.59 dev-perl/Mock-MonkeyPatch dev-perl/File-Slurp >=dev-perl/Test-Pod-1.510.0 dev-perl/Test-Exception >=dev-perl/Class-Factory-1.06 dev-perl/Data-UUID dev-perl/Pod-Coverage-TrustPod >=dev-perl/Test-Kwalitee-1.280.0 dev-perl/List-MoreUtils dev-perl/DBI >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Test-Pod-Coverage-1.100.0 >=dev-perl/Exception-Class-1.450.0 dev-perl/SPOPS >=dev-perl/DateTime-1.540.0 dev-lang/perl dev-lang/perl
+DESCRIPTION=Data blackboard for Workflows, Actions, Conditions and Validators
+EAPI=8
+HOMEPAGE=https://metacpan.org/release/Workflow
+INHERIT=perl-module
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=|| ( Artistic GPL-1 GPL-2 GPL-3 )
+RDEPEND=dev-lang/perl:=
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JO/JONASBN/Workflow-1.61.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	21a0cb6221498d0e7894bdf445b79887
+_md5_=63cd2c13c8ad0ab2f8020b30fc8adf82
