@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+    <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  Net::Etcd is object oriented interface to the v3 REST API provided by the etcd grpc-gateway.
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">Net::Etcd</remote-id>
+    <remote-id type="cpan-module">Net::Etcd</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Auth</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Auth::Role</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Auth::RolePermission</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Config</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::Compare</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::DeleteRange</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::Op</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::Put</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::Range</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::KV::Txn</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Lease</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Maintenance</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Member</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Role::Actions</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::User</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::User::Role</remote-id>
+    <remote-id type="cpan-module">Net::Etcd::Watch</remote-id>
+  </upstream>
+</pkgmetadata>

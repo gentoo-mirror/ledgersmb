@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,10 +10,10 @@ inherit perl-module
 
 DESCRIPTION="Math::BigFloat wrappers for PGObject classes"
 
-LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
+LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
 
-DEPEND="dev-perl/PGObject
-	dev-lang/perl"
+RDEPEND="dev-perl/PGObject"
+
+BDEPEND="${RDEPEND}"

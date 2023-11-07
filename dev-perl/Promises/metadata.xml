@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  This module is an implementation of the "Promise/A+" pattern for asynchronous programming. Promises are meant to be a way to better deal with the resulting callback spaghetti that can often result in asynchronous programs.
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">Promises</remote-id>
+    <remote-id type="cpan-module">Promises</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred::AE</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred::AnyEvent</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred::EV</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred::IO::Async</remote-id>
+    <remote-id type="cpan-module">Promises::Deferred::Mojo</remote-id>
+    <remote-id type="cpan-module">Promises::Promise</remote-id>
+    <remote-id type="cpan-module">Promises::Sub</remote-id>
+  </upstream>
+</pkgmetadata>

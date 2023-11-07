@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+This is a client library for accessing and manipulating data in an etcd cluster. It targets the etcd v2 API.
+
+This module is quite low-level. You're expected to have a good understanding of etcd and its API to understand the methods this module provides. See "SEE ALSO" for further reading.
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">Etcd</remote-id>
+    <remote-id type="cpan-module">Etcd</remote-id>
+    <remote-id type="cpan-module">Etcd::Error</remote-id>
+    <remote-id type="cpan-module">Etcd::Keys</remote-id>
+    <remote-id type="cpan-module">Etcd::Node</remote-id>
+    <remote-id type="cpan-module">Etcd::Response</remote-id>
+    <remote-id type="cpan-module">Etcd::Stats</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+    <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  This module exports two subroutine names: print_cols and format_cols.
+
+The print_cols subroutine prints the items of @array in multiple, alphabetically & vertically sorted columns. In the case of the first argument being a HASH or HASHREF, only the keys of the hash are considered.
+
+One, two, or three optional arguments may be given to print_cols to control the width and number of the columns, the total width of the output, and indentation. Reasonable defaults apply in the absence of the optional arguments (or when given as the empty string or zero). Generally, the minimum width column is used when possible.
+
+If $colspec is given as a non-negative number, it is treated as the minimum width of the column; the actual width will be the maximum of this value and the lengths of all array items.
+
+If $colspec is given as a negative number, its absolute value value is used to determine the total number of columns. However, it cannot exceed the total number of columns possible based on the maximum length of all the array elements.
+
+If a third argument is supplied, it is used as the total width of the output. The default for this value is the value of the environment variable $ENV{'COLUMNS'}, if defined, or 80.
+
+If the fourth argument is given, it is used as the indent for all lines printed, which subtracts from the total width of the output. This value defaults to zero (ie: no indention of the output).
+
+The variable $Array::PrintCols::PreSorted controls whether or not the print_cols subroutine will expect its array argument to already be sorted. If this variable is nil or zero, print_cols will cause print out a sorted copy of the input array.
+
+	  The routine format_cols is called exactly like print_cols but returns the formatted result as a string, rather than printing it. print_cols actually invokes format_cols, which does the real work.
+  </longdescription>
+  <upstream>
+    <remote-id type="cpan">Array::PrintCols</remote-id>
+    <remote-id type="cpan-module">Array::PrintCols</remote-id>
+  </upstream>
+</pkgmetadata>

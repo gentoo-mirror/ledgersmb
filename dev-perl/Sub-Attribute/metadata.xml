@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  Sub::Attribute is a role to define attribute handlers for specific subroutine attributes.
+
+The feature of this module is similar to that of Attribute::Handlers, but has less functionality and more reliability. That is, while Attribute::Handlers provides many options for ATTR(CODE), Sub::Attribute provides no options for ATTR_SUB. However, the attribute handlers defined by Sub::Attribute are always called with informative arguments. Attribute::Handlers's ATTR(CODE) is not called in run-time eval(), so ATTR(CODE) is not reliable.
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">Sub::Attribute</remote-id>
+    <remote-id type="cpan-module">Sub::Attribute</remote-id>
+    <remote-id type="cpan-module">Attribute::Exporter</remote-id>
+  </upstream>
+</pkgmetadata>

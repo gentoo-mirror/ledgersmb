@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+  Extract the names of the modules used in a file using a static analysis. Since this module does not run code, it cannot find dynamic uses of modules, such as eval "require $class". It only reports modules that the file loads directly or are in the import lists for parent or base.
+
+The module can handle the conventional inclusion of modules with either use or require as the statement:
+  </longdescription>
+  <upstream>
+    <remote-id type="cpan">Module::Extract::Use</remote-id>
+    <remote-id type="cpan-module">Module::Extract::Use</remote-id>
+  </upstream>
+</pkgmetadata>
