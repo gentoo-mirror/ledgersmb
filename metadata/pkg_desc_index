@@ -1,6 +1,6 @@
 acct-group/ledgersmb 0: LedgerSMB Service Group
 acct-user/ledgersmb 0: LedgerSMB Service User
-app-office/ledgersmb 1.9.19 1.10.24: An Accounting Application for Small to Midsized Businesses
+app-office/ledgersmb 1.9.30 1.10.24 1.11.2: An Accounting Application for Small to Midsized Businesses
 dev-db/pgtap 1.3.1: Unit testing for PostgreSQL
 dev-perl/AnyEvent-PgRecvlogical 1.20.0: AnyEvent::PgRecvlogical - perl port of pg_recvlogical
 dev-perl/Array-PrintCols 2.600.0: Format or print values from an array or hash in sorted, vertical columns
