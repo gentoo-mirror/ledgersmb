@@ -2,3 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-office/ledgersmb:edi - EDI/X12 support, mostly of interest in electronic interchange of inventory or invoicing in North America.
+app-office/ledgersmb:excel - Include the ability to export reports in Excel (XLS/XLSX) format.
+app-office/ledgersmb:latex - Include LaTeX support, for generating PDFs of invoices, etc.
+app-office/ledgersmb:openoffice - Include the ability to export reports in OpenOffice format
+app-office/ledgersmb:starman - Build with the Starman web server. This is the default. Without this flag, LedgerSMB can still be installed, but you will have to set up fcgi or similar yourself. By default, we only listen on localhost.
+app-office/ledgersmb:xetex - Include XeTeX support, for generating pdfs of invoices using system fonts and unicode characters. TeXLive in Gentoo may not allow both LaTeX and XeTeX support so you should choose one.
