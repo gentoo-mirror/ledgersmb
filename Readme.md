@@ -1,6 +1,6 @@
 # LedgerSMB Official Project Gentoo Overlay
 
-Welcome to the LedgerSMB Gentoo Overlay.  This includes ledgerSMB 1.9 and 1.10 and all dependencies
+Welcome to the LedgerSMB Gentoo Overlay.  This includes ledgerSMB 1.9, 1.10, and 1.11 and all dependencies
 along with some related modules that may also be of use.
 
 Please check back soon regarding design, installation instructions, USE flags

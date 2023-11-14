@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  This module provides parse capabiltiies for the test_decoding plugin for
+PostgreSQL's logical replication.  The test_decoding plugin does not recognize
+or handle publications and simply replicates everything.
+
+Messages follow formats like:
+
+  table public.data: INSERT: id[integer]:3 data[text]:'5'
+
+or for begin or commit messages:
+
+  BEGIN 529
+  COMMIT 529
+
+Transactions are always processed sequentially in the test decoding stack.
+
+This module can be combined with AnyEvent::PGRecvLogical to create programs
+which process PostgreSQL's logical replication streams.
+
+Note that PostgreSQL's logical replication sends out transactions in commit
+order and this module assumes that it will process most messages if transaction
+information is important (which it might not be for some applications).
+
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">PGObject::Util::LogRep::TestDecoding</remote-id>
+    <remote-id type="cpan-module">PGObject::Util::LogRep::TestDecoding</remote-id>
+  </upstream>
+</pkgmetadata>

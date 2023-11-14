@@ -3,17 +3,20 @@
 
 EAPI=8
 
-DIST_AUTHOR="EHUELS"
-DIST_VERSION="2.001"
+DIST_AUTHOR="EINHVERFR"
 
 inherit perl-module
 
-DESCRIPTION="Math::BigFloat wrappers for PGObject classes"
+DESCRIPTION="Parse Pg's test_decoding messages"
 
 LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND="dev-perl/PGObject"
+RDEPEND="dev-perl/Parse-RecDescent
+	dev-perl/Type-Tiny
+	dev-perl/Moo
+	dev-perl/namespace-autoclean
+	"
 
 BDEPEND="${RDEPEND}"
