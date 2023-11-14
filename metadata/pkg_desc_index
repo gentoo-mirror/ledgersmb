@@ -38,12 +38,13 @@ dev-perl/OpenOffice-OODoc 2.125.0: The Perl Open OpenDocument Connector
 dev-perl/PGObject 2.3.2: A toolkit integrating intelligent PostgreSQL dbs into Perl objects
 dev-perl/PGObject-Simple 3.1.0: Minimalist stored procedure mapper based on LedgerSMB's DBObject
 dev-perl/PGObject-Simple-Role 2.1.1: Moo/Moose mappers for minimalist PGObject framework
-dev-perl/PGObject-Type-BigFloat 2.1.0: Math::BigFloat wrappers for PGObject classes
+dev-perl/PGObject-Type-BigFloat 2.1.1: Math::BigFloat wrappers for PGObject classes
 dev-perl/PGObject-Type-ByteString 1.2.3: Wrapper for raw strings mapping to BYTEA columns
-dev-perl/PGObject-Type-DateTime 2.1.0: DateTime Wrappers for PGObject
+dev-perl/PGObject-Type-DateTime 2.1.1: DateTime Wrappers for PGObject
 dev-perl/PGObject-Type-JSON 2.1.1: JSON Wrappers for PGObject
 dev-perl/PGObject-Util-DBAdmin 1.6.1: PostgreSQL Database Management Facilities for PGObject
 dev-perl/PGObject-Util-DBMethod 1.10.0: Declarative stored procedure <-> object mappings for the PGObject Framework
+dev-perl/PGObject-Util-LogRep-TestDecoding 0.1.4: Parse Pg's test_decoding messages
 dev-perl/PGObject-Util-PseudoCSV 2: JSON Wrappers for PGObject
 dev-perl/Plack-Builder-Conditionals 0.50.0: Plack::Builder match-based rules
 dev-perl/Plack-Middleware-ReverseProxy 0.160.0: Supports app to run as a reverse proxy backend
