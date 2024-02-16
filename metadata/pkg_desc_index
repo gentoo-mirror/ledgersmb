@@ -1,7 +1,9 @@
 acct-group/ledgersmb 0: LedgerSMB Service Group
 acct-user/ledgersmb 0: LedgerSMB Service User
-app-office/ledgersmb 1.9.30 1.10.24 1.11.3: An Accounting Application for Small to Midsized Businesses
+app-office/ledgersmb 1.9.30 1.10.32 1.11.10: An Accounting Application for Small to Midsized Businesses
 dev-db/pgtap 1.3.1: Unit testing for PostgreSQL
+dev-perl/AnyEvent-KVStore 0.1.2: Parse Pg's test_decoding messages
+dev-perl/AnyEvent-KVStore-Etcd 0.1.0: Parse Pg's test_decoding messages
 dev-perl/AnyEvent-PgRecvlogical 1.20.0: AnyEvent::PgRecvlogical - perl port of pg_recvlogical
 dev-perl/Array-PrintCols 2.600.0: Format or print values from an array or hash in sorted, vertical columns
 dev-perl/Beam-Emitter 1.7.0: Role for event emitting classes
@@ -35,7 +37,7 @@ dev-perl/MooX-ClassAttribute 0.11.0: declare class attributes Moose-style... but
 dev-perl/Net-Etcd 0.22.0: Net::Etcd is object oriented interface to the v3 REST API.
 dev-perl/Number-Tolerant 1.709.0: Test routines for testing numbers against tolerances
 dev-perl/OpenOffice-OODoc 2.125.0: The Perl Open OpenDocument Connector
-dev-perl/PGObject 2.3.2: A toolkit integrating intelligent PostgreSQL dbs into Perl objects
+dev-perl/PGObject 2.4.0: A toolkit integrating intelligent PostgreSQL dbs into Perl objects
 dev-perl/PGObject-Simple 3.1.0: Minimalist stored procedure mapper based on LedgerSMB's DBObject
 dev-perl/PGObject-Simple-Role 2.1.1: Moo/Moose mappers for minimalist PGObject framework
 dev-perl/PGObject-Type-BigFloat 2.1.1: Math::BigFloat wrappers for PGObject classes
