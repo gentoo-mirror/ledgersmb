@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+The AnyEvent::KVStore framework intends to be a simple, pluggable API for abstracting away the details of key-value store integratoins in event loop for the standard operations one is likely to experience in an event loop.
+
+The idea is to make key-value stores reasonably pluggable for variou skinds of operations so that when one fails to scale in one scenario, another can be used and alaternatively, the same app can support several different stores.
+
+The framework uses Moo (Minimalist Object Orientation) to procide the basic interface specifications, and modules providing drivers here are expected to use Moo for defining accessors, etc.
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">AnyEvent::KVStore</remote-id>
+    <remote-id type="cpan-module">AnyEvent::KVStore</remote-id>
+    <remote-id type="cpan-module">AnyEvent::KVStore::Driver</remote-id>
+    <remote-id type="cpan-module">AnyEvent::KVStore::Hash</remote-id>
+  </upstream>
+</pkgmetadata>

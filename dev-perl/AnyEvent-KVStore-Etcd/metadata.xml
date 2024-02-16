@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person" proxied="yes">
+    <email>chris.travers@gmail.com</email>
+    <name>Chris Travers</name>
+  </maintainer>
+  <maintainer type="project" proxied="proxy">
+    <email>proxy-maint@gentoo.org</email>
+    <name>Proxy Maintainers</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>perl@gentoo.org</email>
+  </maintainer>
+  <longdescription lang="en">
+	  AnyEvent::KVStore::Etcd is a driver for L<AnyEvent::KVStore> which uses the
+Etcd distributed key-value store as its backend.  We use the Net::Etcd driver
+for this, though there are some important limitations.
+
+The primary documentation for this module is in the L<AnyEvent::KVStore> module
+but there are some important limitations discussed here.
+
+This module can also be used directly for simplified access to an Etcd database.
+
+</longdescription>
+  <upstream>
+    <remote-id type="cpan">AnyEvent::KVStore::Etcd</remote-id>
+    <remote-id type="cpan-module">AnyEvent::KVStore::Etcd</remote-id>
+  </upstream>
+</pkgmetadata>
