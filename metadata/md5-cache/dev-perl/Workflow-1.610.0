@@ -1,16 +1,16 @@
-BDEPEND=>=dev-perl/DateTime-Format-Strptime-1.790.0 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/XML-Simple-2.250.0 dev-perl/Readonly dev-perl/File-Slurp >=dev-perl/Class-Factory-1.60.0 dev-perl/Data-UUID dev-perl/Pod-Coverage-TrustPod dev-perl/DBI >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Exception-Class-1.450.0 >=dev-perl/DateTime-1.540.0 test? ( >=dev-perl/DBD-Mock-1.59 dev-perl/Mock-MonkeyPatch >=dev-perl/Test-Pod-1.510.0 dev-perl/Test-Exception >=dev-perl/Test-Kwalitee-1.280.0 >=dev-perl/Test-Pod-Coverage-1.100.0 dev-perl/List-MoreUtils ) dev-lang/perl test? ( >=virtual/perl-Test-Simple-1 )
+BDEPEND=>=dev-perl/DateTime-Format-Strptime-1.790.0 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/XML-Simple-2.250.0 dev-perl/Readonly dev-perl/File-Slurp >=dev-perl/Class-Factory-1.60.0 dev-perl/Data-UUID dev-perl/Pod-Coverage-TrustPod dev-perl/DBI >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Exception-Class-1.450.0 >=dev-perl/DateTime-1.540.0 test? ( >=dev-perl/DBD-Mock-1.59 dev-perl/Mock-MonkeyPatch >=dev-perl/Test-Pod-1.510.0 dev-perl/Test-Exception >=dev-perl/Test-Kwalitee-1.280.0 >=dev-perl/Test-Pod-Coverage-1.100.0 dev-perl/List-MoreUtils ) || ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) test? ( >=virtual/perl-Test-Simple-1 )
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-lang/perl
+DEPEND=|| ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 )
 DESCRIPTION=Data blackboard for Workflows, Actions, Conditions and Validators
 EAPI=8
 HOMEPAGE=https://metacpan.org/release/Workflow
 INHERIT=perl-module
-IUSE=test
+IUSE=perl_features_debug perl_features_ithreads perl_features_quadmath test
 KEYWORDS=~amd64
 LICENSE=|| ( Artistic GPL-1+ )
-RDEPEND=>=dev-perl/DateTime-Format-Strptime-1.790.0 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/XML-Simple-2.250.0 dev-perl/Readonly dev-perl/File-Slurp >=dev-perl/Class-Factory-1.60.0 dev-perl/Data-UUID dev-perl/Pod-Coverage-TrustPod dev-perl/DBI >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Exception-Class-1.450.0 >=dev-perl/DateTime-1.540.0 dev-lang/perl:=
+RDEPEND=>=dev-perl/DateTime-Format-Strptime-1.790.0 >=dev-perl/Class-Accessor-0.510.0 >=dev-perl/XML-Simple-2.250.0 dev-perl/Readonly dev-perl/File-Slurp >=dev-perl/Class-Factory-1.60.0 dev-perl/Data-UUID dev-perl/Pod-Coverage-TrustPod dev-perl/DBI >=dev-perl/Log-Log4perl-1.540.0 >=dev-perl/Exception-Class-1.450.0 >=dev-perl/DateTime-1.540.0 || ( >=dev-lang/perl-5.38.2-r3[perl_features_debug=,perl_features_ithreads=,perl_features_quadmath=] <dev-lang/perl-5.38.2-r3 ) dev-lang/perl:=
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JO/JONASBN/Workflow-1.61.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	4e37e1004a0a27e41bb7025c0b974676
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	perl-module	9cfd8bc4b0466de21b0127c4c8ab844e
 _md5_=72614e0c4299b69b8717d7f61bf48554
